@@ -3,6 +3,7 @@
 namespace Liloi\Mini\Application\Engine;
 
 use Liloi\Config\Pool;
+use Liloi\Mini\Application\API\Tree;
 use Rune\Application\Conceptual as ConceptualApplication;
 
 /**
@@ -42,6 +43,11 @@ class Application extends ConceptualApplication
      */
     public function compile(): string
     {
+        if(isset($_POST['method']))
+        {
+            Tree::collect();
+            return Tree::execute();
+        }
         return $this->render(__DIR__ . '/Layout.tpl', [
 
         ]);

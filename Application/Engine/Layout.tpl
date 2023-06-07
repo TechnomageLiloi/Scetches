@@ -12,11 +12,25 @@
         <script src="/vendor/technomage-liloi/stylo/Source/Stylo.js"></script>
 
         <title>Application</title>
+        <script>
+            let getShow = function ()
+            {
+                API.request('Mini.Application.Show', {
+
+                }, function (data) {
+                    $('#page').html(data.render);
+                }, function () {
+
+                });
+            }
+        </script>
     </head>
     <body>
-        <h1 style="text-align: center;">Hello, Macrocosm!</h1>
-        <script>
+        <div id="page">
 
+        </div>
+        <script>
+            getShow();
         </script>
     </body>
 </html>

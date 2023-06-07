@@ -9,6 +9,17 @@
         color: red;
         text-decoration: none;
     }
+
+    #solution
+    {
+        color: red;
+    }
+
+    .link
+    {
+        border: red 2px solid;
+        padding: 1px;
+    }
 </style>
 <div id="signum"><img src="/Signum.jpg"></div>
 <h1>Quadratic equations</h1>
@@ -18,8 +29,8 @@
     Ax^2+Bx+C=0<br/>
     A = <input type="text" name="a" value="1"><br/>
     B = <input type="text" name="b" value="-5"><br/>
-    C = <input type="text" name="c" value="6"><br/>
-    <a href="javascript:void(0)" onclick="MiniApplicationSolve();">Solve</a>
+    C = <input type="text" name="c" value="6"><br/><br/>
+    <a href="javascript:void(0)" onclick="MiniApplicationSolve();" class="link">Solve</a>
     <div id="solution"></div>
 </div>
 <hr/>

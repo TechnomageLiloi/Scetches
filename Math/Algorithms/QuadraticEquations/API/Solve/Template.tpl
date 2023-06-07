@@ -1,3 +1,4 @@
+<hr/>
 <?php if($x1==$x2): ?>
     Only one root:<br/>
     X = <?php echo $x1; ?>

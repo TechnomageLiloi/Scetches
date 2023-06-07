@@ -17,6 +17,7 @@ class Tree
         $manager = new Manager();
 
         $manager->add(new Method('Mini.Application.Show', '\Liloi\Mini\Math\Algorithms\QuadraticEquations\API\Show\Method::execute'));
+        $manager->add(new Method('Mini.Application.Solve', '\Liloi\Mini\Math\Algorithms\QuadraticEquations\API\Solve\Method::execute'));
 
         self::$manager = $manager;
     }

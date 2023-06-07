@@ -10,7 +10,7 @@
         "technomage-liloi/rune-api": "dev-main",
         "technomage-liloi/stylo": "dev-main",
         "technomage-liloi/rune-tools": "dev-main",
-        "technomage-liloi/dumper": "dev-main",
+        "technomage-liloi/math-alg": "dev-Main",
         "twbs/bootstrap": "v5.2.3",
       "ext-json": "*"
     },

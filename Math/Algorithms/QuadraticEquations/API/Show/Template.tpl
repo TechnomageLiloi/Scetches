@@ -19,7 +19,8 @@
     A = <input type="text" name="a" value="1"><br/>
     B = <input type="text" name="b" value="-5"><br/>
     C = <input type="text" name="c" value="6"><br/>
-    <a href="javascript:void(0)">Solve</a>
+    <a href="javascript:void(0)" onclick="MiniApplicationSolve();">Solve</a>
+    <div id="solution"></div>
 </div>
 <hr/>
 <h6>Anton Moskalenko a.k.a. Technomage Lilôi</h6>

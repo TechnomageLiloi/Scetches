@@ -1,9 +1,9 @@
 <?php
 
-namespace Liloi\Mini\Application\Engine;
+namespace Liloi\Mini\Math\Algorithms\QuadraticEquations\Engine;
 
 use Liloi\Config\Pool;
-use Liloi\Mini\Application\API\Tree;
+use Liloi\Mini\Math\Algorithms\QuadraticEquations\API\Tree;
 use Rune\Application\Conceptual as ConceptualApplication;
 
 /**

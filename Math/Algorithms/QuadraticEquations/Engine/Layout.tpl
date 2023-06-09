@@ -10,26 +10,16 @@
         <script><?php echo file_get_contents(ROOT_DIR . '/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js'); ?></script>
         <script><?php echo file_get_contents(ROOT_DIR . '/vendor/technomage-liloi/stylo/Source/Stylo.js'); ?></script>
 
-        <title>Application</title>
-        <script>
-            let getShow = function ()
-            {
-                API.request('Mini.Application.Show', {
-
-                }, function (data) {
-                    $('#page').html(data.render);
-                }, function () {
-
-                });
-            }
-        </script>
+        <title>Quadratic equations (School algorithm)</title>
+        <script><?php echo file_get_contents(ROOT_DIR . '/API/Request.js'); ?></script>
     </head>
     <body>
+
         <div id="page">
 
         </div>
         <script>
-            getShow();
+            MiniApplicationShow();
         </script>
     </body>
 </html>

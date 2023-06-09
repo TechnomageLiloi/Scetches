@@ -1,0 +1,23 @@
+{
+    "name": "technomage-liloi/mini-math-algorithms-quadratic-equations",
+    "keywords": [
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "technomage-liloi/rune-framework": "dev-main",
+        "technomage-liloi/judex": "dev-main",
+        "technomage-liloi/rune-config": "dev-main",
+        "technomage-liloi/rune-api": "dev-main",
+        "technomage-liloi/stylo": "dev-main",
+        "technomage-liloi/rune-tools": "dev-main",
+        "technomage-liloi/math-alg": "dev-Main",
+        "twbs/bootstrap": "v5.2.3",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liloi\\Mini\\Math\\Algorithms\\QuadraticEquations\\API\\": "API",
+            "Liloi\\Mini\\Math\\Algorithms\\QuadraticEquations\\Engine\\": "Engine"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "technomage-liloi/sketches",
+    "keywords": [
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "technomage-liloi/dumper": "dev-main",
+        "technomage-liloi/judex": "dev-main",
+        "technomage-liloi/rune-api": "dev-main",
+        "technomage-liloi/rune-config": "dev-main",
+        "technomage-liloi/rune-framework": "dev-main",
+        "technomage-liloi/rune-tools": "dev-main",
+        "technomage-liloi/stylo": "dev-main",
+        "twbs/bootstrap": "v5.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liloi\\Sketches\\Application\\": "Application"
+        }
+    }
+}

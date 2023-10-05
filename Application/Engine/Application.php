@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\Mini\Application\Engine;
+namespace Liloi\Sketches\Application\Engine;
 
 use Liloi\Config\Pool;
 use Liloi\Mini\Application\API\Tree;

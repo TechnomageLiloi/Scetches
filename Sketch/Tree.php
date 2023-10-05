@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\Sketches\Application;
+namespace Liloi\Sketches\Sketch;
 
 use Liloi\API\Manager;
 use Liloi\API\Method;

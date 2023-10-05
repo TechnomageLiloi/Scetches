@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Liloi\\Sketches\\Application\\": "Application"
+            "Liloi\\Sketches\\Sketch\\": "Sketch"
         }
     }
 }

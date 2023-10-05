@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\Sketches\Application;
+namespace Liloi\Sketches\Sketch;
 
 use Liloi\Config\Pool;
 use Rune\Application\Conceptual as ConceptualApplication;

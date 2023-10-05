@@ -1,6 +1,6 @@
 <?php
 
-namespace Liloi\Sketches\Application\API;
+namespace Liloi\Sketches\Application;
 
 use Liloi\Judex\Assert;
 use Liloi\API\Response;

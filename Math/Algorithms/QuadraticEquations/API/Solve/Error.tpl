@@ -1,2 +1,0 @@
-<hr/>
-<?php echo $message; ?>

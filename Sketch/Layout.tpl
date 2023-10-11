@@ -11,6 +11,7 @@
         <script><?php echo file_get_contents(ROOT_DIR . '/vendor/technomage-liloi/stylo/Source/Stylo.js'); ?></script>
 
         <script><?php echo file_get_contents(ROOT_DIR . '/Sketch/Requests.js'); ?></script>
+        <style><?php echo file_get_contents(ROOT_DIR . '/Sketch/Style.css'); ?></style>
 
         <title>Sketches</title>
     </head>

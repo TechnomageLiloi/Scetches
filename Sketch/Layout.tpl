@@ -10,14 +10,15 @@
         <script><?php echo file_get_contents(ROOT_DIR . '/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js'); ?></script>
         <script><?php echo file_get_contents(ROOT_DIR . '/vendor/technomage-liloi/stylo/Source/Stylo.js'); ?></script>
 
+        <script><?php echo file_get_contents(ROOT_DIR . '/Sketch/Requests.js'); ?></script>
+
         <title>Sketches</title>
     </head>
     <body>
         <div id="page">
-
+            <script>
+                Sketches.menu();
+            </script>
         </div>
-        <script>
-
-        </script>
     </body>
 </html>

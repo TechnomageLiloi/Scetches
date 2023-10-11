@@ -16,7 +16,7 @@ class Tree
     {
         $manager = new Manager();
 
-        $manager->add(new Method('Mini.Application.Show', '\Liloi\Mini\Application\API\Show\Method::execute'));
+        $manager->add(new Method('Sketches.Menu', '\Liloi\Sketches\Sketch\Menu::execute'));
 
         self::$manager = $manager;
     }

@@ -42,6 +42,12 @@ class Application extends ConceptualApplication
      */
     public function compile(): string
     {
+        if(isset($_POST['method']))
+        {
+            Tree::collect();
+            return Tree::execute();
+        }
+
         return $this->render(__DIR__ . '/Layout.tpl', [
 
         ]);

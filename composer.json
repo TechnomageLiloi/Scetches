@@ -15,7 +15,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Liloi\\Sketches\\Sketch\\": "Sketch"
+            "Liloi\\Sketches\\Sketch\\": "Sketch",
+            "Liloi\\Sketches\\School\\": "School"
         }
     }
 }

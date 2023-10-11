@@ -12,6 +12,16 @@ class Tree
 {
     static ?Manager $manager = null;
 
+    public static function getManager(): Manager
+    {
+        if(self::$manager === null)
+        {
+            self::$manager = new Manager();
+        }
+
+        return self::$manager;
+    }
+
     public static function collect(): void
     {
         $manager = new Manager();

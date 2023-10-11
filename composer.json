@@ -11,6 +11,7 @@
         "technomage-liloi/rune-framework": "dev-main",
         "technomage-liloi/rune-tools": "dev-main",
         "technomage-liloi/stylo": "dev-main",
+        "technomage-liloi/math-alg": "dev-main",
         "twbs/bootstrap": "v5.2.3"
     },
     "autoload": {
